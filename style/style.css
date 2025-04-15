@@ -1,4 +1,4 @@
-@charset "UTF8";
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
 :root {
@@ -17,6 +17,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+body {
+    background-color: white;
 }
 header {
     background-color: black;
@@ -48,7 +51,7 @@ header a:visited {
 header a:hover {
     text-decoration: underline;
 }
-main p {
+main section {
     font-family: var(--fonte-verso);
     font-size: 2em;
     padding-left: 20px;
@@ -64,13 +67,13 @@ main p {
     background-size: cover;
     padding: 10px;
 }
-#fundo1 > p {
+#fundo1 p {
     color: white;
     background-color: rgba(0, 0, 0, 0.473);
     text-align: justify;
     width: 40%;
 }
-#fundo2 > p {
+#fundo2 p {
     color: white;
     background-color: rgba(0, 0, 0, 0.473);
     text-align: justify;
@@ -83,7 +86,7 @@ footer {
 }
 footer p {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-weight: normal;
 }
 footer a {
