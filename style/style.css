@@ -1,0 +1,99 @@
+@charset "UTF8";
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+:root {
+    --fonte-verso: Sriracha;
+    --fonte-titulo: "Passion One";
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    position: relative;
+}
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+header {
+    background-color: black;
+    min-height: 200px;
+    text-align: center;
+}
+header h1 {
+    color: white;
+    font-family: var(--fonte-titulo);
+    font-size: 15vh;
+    font-weight: bold;
+    margin: auto;
+}
+header p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: auto;
+}
+header a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+header a:visited {
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+main p {
+    font-family: var(--fonte-verso);
+    font-size: 2em;
+    padding-left: 20px;
+    padding: top 20px;
+}
+#fundo1 {
+    background: black url(../pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 10px;
+}
+#fundo2 {
+    background: black url(../pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 10px;
+}
+#fundo1 > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: justify;
+    width: 40%;
+}
+#fundo2 > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.473);
+    text-align: justify;
+    width: 40%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 45px;
+}
+footer p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+footer a:visited {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
