@@ -14,7 +14,7 @@
 html,
 body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(22, 20, 20);
     font-family: var(--fonte-normal);
 }
 header {
@@ -70,10 +70,11 @@ section.imagem p {
     text-shadow: 1px 2px 0px black;
 }
 #img01 {
-    background: url(../pacote-d012/imagens/background001.jpg) center center no-repeat;
+    background-image: url("../pacote-d012/imagens/background001.jpg");
+    background-position: right center;
 }
 #img02 {
-    background: url(../pacote-d012/imagens/background002.jpg) center center no-repeat;
+    background-image: url("../pacote-d012/imagens/background002.jpg");
 }
 footer {
     padding: 10px;
