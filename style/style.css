@@ -13,8 +13,8 @@
 }
 html,
 body {
-    background-color: darkgray;
     min-height: 100vh;
+    background-color: darkgray;
     font-family: var(--fonte-normal);
 }
 header {
@@ -24,33 +24,23 @@ header {
 }
 header > h1 {
     padding-top: 50px;
-    margin: auto;
     font-family: var(--fonte-titulo);
-    font-weight: bold;
-    font-size: 8vw;
+    font-size: 10vw;
     font-variant: small-caps;
 }
 header > p {
     padding-bottom: 50px;
-    margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-size: 1em;
 }
 header a,
 footer a {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
 }
-header a,
+header a:hover,
 footer a:hover {
     text-decoration: underline;
-}
-header a,
-footer a:visited {
-    text-decoration: none;
 }
 section {
     padding-top: 10vh;
@@ -58,18 +48,20 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte-verso);
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 section p {
     padding-bottom: 2em;
 }
 section.normal {
-    color: black;
     background-color: white;
+    color: black;
 }
 section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem p {
     display: inline-block;
@@ -77,22 +69,15 @@ section.imagem p {
     background-color: rgba(0, 0, 0, 0.473);
     text-shadow: 1px 2px 0px black;
 }
-.imagem#img01 {
-    background: black url(../pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
-    background-size: cover;
+#img01 {
+    background: url(../pacote-d012/imagens/background001.jpg) center center no-repeat;
 }
-.imagem#img02 {
-    background: black url(../pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
-    background-size: cover;
+#img02 {
+    background: url(../pacote-d012/imagens/background002.jpg) center center no-repeat;
 }
 footer {
-    background-color: black;
-    text-align: center;
-    color: white;
     padding: 10px;
-}
-footer p {
+    background-color: black;
     color: white;
-    font-family: Verdana, Tahoma, sans-serif;
-    font-weight: normal;
+    text-align: center;
 }
